@@ -83,11 +83,12 @@
     }
     
     &:hover {
-        background-color: black;
+        background-color: $blue;
 
       > a,
       > span {
         color: white;
+        background-color: rgba(255,255,255,0) !important;
       }
     }
     

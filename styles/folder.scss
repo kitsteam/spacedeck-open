@@ -327,7 +327,7 @@
         border-top-left-radius: $radius * 2;
         border-top-right-radius: $radius * 2;
         display: block;
-        background-color: #2664b7;
+        background-color: $blue-dark;
       }
 
       top: 0px;
@@ -397,7 +397,7 @@
       &:active { opacity: 0.95 !important; }
 
       box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
-      border: 1px solid black;
+      border: none;
 
       // ???
       @include opacity(1);
