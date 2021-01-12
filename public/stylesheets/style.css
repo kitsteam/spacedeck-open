@@ -2893,7 +2893,7 @@ select {
   .input.input-darken {
     background-color: rgba(0, 0, 0, 0.05) !important; }
   .input.input-round {
-    border-radius: 3px !important; }
+    border-radius: 70px !important; }
   .input.input-nude {
     padding: 0px !important;
     background-color: transparent !important;
@@ -5941,7 +5941,7 @@ select {
   transform: rotateZ(45deg) translateX(-8px); }
 
 .icon-svg {
-  background-size: 26px;
+  background-size: 28px;
   background-position: center;
   background-repeat: no-repeat; }
 
@@ -8007,7 +8007,7 @@ select {
     background-color: transparent;
     color: #888; }
   .btn.btn-round {
-    border-radius: 3px !important; }
+    border-radius: 100px !important; }
   .btn.btn-rounded {
     border-radius: 3px !important; }
   .btn.btn-nude {
@@ -8026,8 +8026,8 @@ select {
       box-shadow: inset 0 0 0 1px white;
       color: white !important; }
   .btn.btn-stroke-darken {
-    border: 1px solid #00a3d3;
-    color: #00a3d3;
+    border: 1px solid #111;
+    color: #111;
     background-color: transparent; }
     .btn.btn-stroke-darken:active {
       border: 1px solid #222;
@@ -8144,7 +8144,7 @@ select {
     .btn.btn-darken.invert {
       background-color: rgba(255, 255, 255, 0.05); }
   .btn.btn-dark {
-    background-color: #00a3d3;
+    background-color: #222;
     color: #ffffff; }
   .btn.btn-medium {
     background-color: rgba(0, 0, 0, 0.05);
@@ -9935,7 +9935,7 @@ button.close {
       .select-list li.checked > span {
         color: #222; }
     .select-list li:hover {
-      background-color: #00a3d3; }
+      background-color: black; }
       .select-list li:hover > a,
       .select-list li:hover > span {
         color: white;
@@ -12599,7 +12599,7 @@ button.close {
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
         display: block;
-        background-color: #0082a8; }
+        background-color: #2664b7; }
       #folder-grid .item.folder > a .item-thumbnail {
         bottom: 0px;
         z-index: 1; }
@@ -12666,8 +12666,7 @@ button.close {
       /* aspect ratio without spacer image */
       background-color: white;
       border-radius: 6px;
-      box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
-      border: none;
+      border: 1px solid rgba(0, 0, 0, 0.2);
       opacity: 1;
       filter: alpha(opacity=100);
       color: #888;
@@ -16029,14 +16028,16 @@ body:not(.present-mode) #space .artifact.selected {
 #landing {
   margin-top: 100px; }
   #landing section {
-    margin-left: 300px; }
-    #landing section > * {
-      max-width: 600px; }
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center; }
 
 .footer {
-  margin-left: 300px;
   margin-top: 100px;
   margin-bottom: 100px; }
+  .footer section {
+    max-width: 900px;
+    margin: 0 auto; }
 
 @media screen and (max-width: 1000px) {
   #landing section {
