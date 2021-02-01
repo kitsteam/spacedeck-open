@@ -2742,7 +2742,7 @@ hr {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: inherit;
   font-family: inherit;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 1.3;
   margin-top: 0px;
   margin-bottom: 1em;
@@ -2791,7 +2791,7 @@ dl {
     margin: 0px; }
 
 ol, ul, p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.6;
   margin: 0px;
   margin-bottom: 1em;
@@ -16050,7 +16050,7 @@ body:not(.present-mode) #space .artifact.selected {
     right: auto;
     padding-left: 10px;
     padding-right: 20px;
-    padding-top: 80px; }
+    padding-top: 30px; }
   #folder-wrapper {
     padding-top: 128px; } }
 
